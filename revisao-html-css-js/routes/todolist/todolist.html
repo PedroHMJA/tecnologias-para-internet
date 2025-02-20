@@ -8,10 +8,20 @@
 </head>
 <body>
     <header>
-        <h1>ToDo List</h1>
+        <h1>To-Do List</h1>
     </header>
-    <div>
-        
+    <div class="principal">
+        <div class="entrada">
+            <label for="tarefa" class="botoes">Qual é a tarefa?</label>
+            <input type="text" id="tarefa" class="botoes">
+            <button class="botoes" onclick="adicionaNaLista()">Adicionar</button>
+            <button class="botoes" onclick="removeDaLista()">Remover</button>
+        </div>
+        <div class="saida">
+            <ul class="tarefas">
+            </ul>
+        </div>
     </div>
+    <script src="/scripts/operacoesNaLista.js"></script>
 </body>
 </html>
