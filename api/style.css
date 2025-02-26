@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    width: auto;
+    height: auto;
+    background: #cacaca;
+}
+
+.container{
+    width: 1000px;
+    height: auto;
+    border: solid black 2px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 300px;
+}
+header{
+    font-size: xx-large;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 100px;
+}
