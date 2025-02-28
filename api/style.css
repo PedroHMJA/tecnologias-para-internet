@@ -9,7 +9,7 @@ body{
     background: #cacaca;
 }
 
-.container{
+.conteudo{
     width: 1000px;
     height: auto;
     border: solid black 2px;
@@ -17,7 +17,7 @@ body{
     text-align: center;
 }
 
-.conteudo{
+.container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,10 +26,20 @@ body{
 }
 header{
     font-size: xx-large;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     margin-top: 100px;
+}
+
+.inputs{
+    font-size: medium;
+    width: auto;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+button{
+    margin-top: 20px;
 }

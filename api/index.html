@@ -8,24 +8,22 @@
 </head>
 <body>
     <header>
-        <div>
-            <p>Consulte algum CEP</p>
+        <div class="inputs">
+            <h1>Consulte algum CEP</h1>
+            <label for="cep">CEP</label>
             <input type="text" id="cep">
-            <button onclick="buscaCep(document.getElementById('cep').value);">Buscar</button>
+            <label for="numero">Numero</label>
+            <input type="text" id="numero">
+            <label for="complemento">Complemento</label>
+            <input type="text" id="complemento">
+            <button type="button" onclick="buscaCep(document.getElementById('cep').value);">Buscar</button>
         </div>
     </header>
-        <div class="conteudo">
-            <div class="container">
-                <p></p>
-                <p>numero</p>
-                <p>Rua</p>
-                <p>Cidade</p>
-                <p>Bairro</p>
-                <p>regiao</p>
+        <div class="container">
+            <div class="conteudo">
             </div>
         </div>
     <footer>
-
     </footer>
     <script src="/api/api.js"></script>
 </body>
